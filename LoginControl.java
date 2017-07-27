@@ -28,11 +28,7 @@ public class LoginControl implements Serializable {
 
         try {
 
-            //connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "refla", "12345");
-     //    connection = DriverManager.getConnection("jdbc:oracle:thin:@192.168.1.250:1521:xe", "refla", "admin2015");
-
-         //connection = DriverManager.getConnection("jdbc:oracle:thin:@192.168.1.253:1521:xe", "refla", "admin2015");
-         connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "PJC", "PJC");
+        connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1526:xe", "PJC", "PJC");
         
         } catch (SQLException e) {
 
